@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center h-screen mx-5">
     <div class="bg-white rounded px-6 pt-10 pb-5 m-auto shadow-sm">
-      <NuxtPicture
+      <nuxt-picture
         src="/images/logo.png"
         :img-attrs="{
           'id': 'logo',
@@ -10,7 +10,7 @@
           'data-my-data': 'my-value',
         }"
       />
-      <h3 class="text-xl text-cyan-400 font-semibold">
+      <h3 class="text-xl text-cyan-500 font-semibold">
         Login
       </h3>
 

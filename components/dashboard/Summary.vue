@@ -1,9 +1,7 @@
 <template>
   <div class="grid grid-cols-2 md:flex md:flex-col gap-4">
-    <!-- Card 1 -->
     <mj-card class="md:py-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-        <!-- Icon -->
         <div class="h-8 w-8 bg-blue-100 p-2 rounded flex items-center justify-center md:order-2 md:w-14 md:h-14 mt-1 md:mt-0 hover:bg-blue-200">
           <icon
             name="mdi:note-plus-outline"
@@ -11,7 +9,6 @@
           />
         </div>
 
-        <!-- Text -->
         <div class="mt-2 md:mt-0">
           <h4 class="text-zinc-700 font-semibold md:text-lg">
             25
@@ -23,10 +20,8 @@
       </div>
     </mj-card>
 
-    <!-- Card 2 -->
     <mj-card class="md:py-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-        <!-- Icon -->
         <div class="h-8 w-8 bg-cyan-100 p-2 rounded flex items-center justify-center md:order-2 md:w-14 md:h-14 mt-1 md:mt-0 hover:bg-cyan-200">
           <icon
             name="mdi:eye-outline"
@@ -34,7 +29,6 @@
           />
         </div>
 
-        <!-- Text -->
         <div class="mt-2 md:mt-0">
           <h4 class="text-zinc-700 font-semibold md:text-lg">
             298

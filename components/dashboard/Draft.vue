@@ -15,18 +15,18 @@
           v-for="(d, i) in drafts"
           :key="i"
         >
-          <div class="flex justify-start gap-2 md:gap-4 md:mb-2">
+          <div class="flex justify-start gap-3 md:gap-4 md:mb-2">
             <div>
               <nuxt-picture
                 :src="d.thumbnail"
                 :img-attrs="{
                   id: 'logo',
-                  class: 'text-center mx-auto w-48 h-16 rounded-sm object-cover md:h-24',
+                  class: 'text-center mx-auto w-32 h-20 rounded-sm object-cover md:h-24',
                 }"
               />
-              <p class="text-zinc-600 text-xl font-semibold md:hidden">
+              <button class="text-zinc-600 text-xl font-semibold md:hidden hover:text-cyan-500">
                 ...
-              </p>
+              </button>
             </div>
             <div class="flex-1">
               <div class="flex justify-between gap-2 items-center">
@@ -44,7 +44,7 @@
               <p class="mt-2 text-zinc-700">
                 {{ d.content }}
               </p>
-              <p class="mt-2 text-zinc-400 text-xs font-thin">
+              <p class="mt-2 text-zinc-500 text-xs font-thin">
                 {{ d.date }}
               </p>
             </div>
