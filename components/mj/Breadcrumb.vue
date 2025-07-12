@@ -1,10 +1,10 @@
 <template>
   <mj-card class="mb-4">
-    <div class="flex flex-col gap-1 items-start">
+    <div class="flex flex-col gap-1 items-start md:flex-row md:justify-between">
       <div class="flex justify-start gap-2">
-        <div class="pt-1">
+        <div class="pt-[3px]">
           <icon
-            name="mdi:chart-line"
+            name="mdi:view-dashboard"
             class="text-cyan-600"
           />
         </div>
@@ -12,14 +12,14 @@
           Dashboard
         </p>
       </div>
-      <div class="flex justify-start gap-2">
-        <div>
+      <div class="flex justify-start gap-2 md:items-center">
+        <div class="md:pt-1">
           <icon
-            name="mdi:chart-line"
+            name="mdi:view-dashboard"
             class="text-cyan-600"
           />
         </div>
-        <div>
+        <div class="md:pt-1">
           <icon
             name="mdi:chevron-right"
             class="text-zinc-400"

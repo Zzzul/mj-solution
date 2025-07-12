@@ -1,35 +1,49 @@
 <template>
-  <div class="grid grid-cols-2 gap-4">
-    <mj-card>
-      <div class="h-8 w-8 bg-blue-100 p-2 rounded flex items-center mb-1">
-        <icon
-          name="mdi:chart-line"
-          size="20"
-          class="text-purple-600"
-        />
+  <div class="grid grid-cols-2 md:flex md:flex-col gap-4">
+    <!-- Card 1 -->
+    <mj-card class="md:py-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <!-- Icon -->
+        <div class="h-8 w-8 bg-blue-100 p-2 rounded flex items-center justify-center md:order-2 md:w-14 md:h-14 mt-1 md:mt-0 hover:bg-blue-200">
+          <icon
+            name="mdi:note-plus-outline"
+            class="text-purple-600 md:text-2xl hover:text-purple-700"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="mt-2 md:mt-0">
+          <h4 class="text-zinc-700 font-semibold md:text-lg">
+            25
+          </h4>
+          <h4 class="text-zinc-400 text-xs mt-1 md:text-sm">
+            Total Publish
+          </h4>
+        </div>
       </div>
-      <h4 class="text-zinc-700 font-semibold">
-        25
-      </h4>
-      <h4 class="text-zinc-400 text-xs">
-        Total Publish
-      </h4>
     </mj-card>
 
-    <mj-card>
-      <div class="h-8 w-8 bg-cyan-100 p-2 rounded flex items-center mb-1">
-        <icon
-          name="mdi:eye"
-          size="20"
-          class="text-cyan-600"
-        />
+    <!-- Card 2 -->
+    <mj-card class="md:py-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <!-- Icon -->
+        <div class="h-8 w-8 bg-cyan-100 p-2 rounded flex items-center justify-center md:order-2 md:w-14 md:h-14 mt-1 md:mt-0 hover:bg-cyan-200">
+          <icon
+            name="mdi:eye-outline"
+            class="text-cyan-600 md:text-2xl hover:text-cyan-700"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="mt-2 md:mt-0">
+          <h4 class="text-zinc-700 font-semibold md:text-lg">
+            298
+          </h4>
+          <h4 class="text-zinc-400 text-xs mt-1 md:text-sm">
+            Total Views
+          </h4>
+        </div>
       </div>
-      <h4 class="text-zinc-700 font-semibold">
-        298
-      </h4>
-      <h4 class="text-zinc-400 text-xs">
-        Total Views
-      </h4>
     </mj-card>
   </div>
 </template>

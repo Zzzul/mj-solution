@@ -15,15 +15,13 @@
           v-for="(d, i) in drafts"
           :key="i"
         >
-          <div
-            class="flex justify-start gap-2"
-          >
+          <div class="flex justify-start gap-2 md:gap-4 md:mb-2">
             <div>
               <nuxt-picture
                 :src="d.thumbnail"
                 :img-attrs="{
                   id: 'logo',
-                  class: 'text-center mx-auto w-48 h-16 rounded-sm object-cover',
+                  class: 'text-center mx-auto w-48 h-16 rounded-sm object-cover md:h-24',
                 }"
               />
               <p class="text-zinc-600 text-xl font-semibold md:hidden">
@@ -31,9 +29,17 @@
               </p>
             </div>
             <div>
-              <nuxt-link to="#" class="font-semibold hover:underline text-zinc-700 hover:text-zinc-800">
-                {{ d.title }}
-              </nuxt-link>
+              <div class="flex justify-between gap-2">
+                <nuxt-link
+                  to="#"
+                  class="font-semibold hover:underline text-zinc-700 hover:text-zinc-800"
+                >
+                  {{ d.title }}
+                </nuxt-link>
+                <p class="text-zinc-600 text-xl font-semibold hidden md:block mt-[-10px]">
+                  ...
+                </p>
+              </div>
               <p class="mt-2 text-zinc-700">
                 {{ d.content }}
               </p>
