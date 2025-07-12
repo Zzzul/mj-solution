@@ -14,7 +14,7 @@
         Login
       </h3>
 
-      <p class="mt-4 text-base">
+      <p class="mt-4 text-base text-zinc-700">
         Thankyou for get back to
         <span class="text-cyan-500">MJ Solution Photobooth</span>
       </p>
@@ -23,7 +23,7 @@
         <div class="mt-6">
           <label
             for="username"
-            class="text-sm mb-1 block"
+            class="text-sm mb-1 block text-zinc-700"
           >Username</label>
           <input
             id="username"
@@ -37,7 +37,7 @@
         <div class="mt-3">
           <label
             for="password"
-            class="text-sm mb-1 block"
+            class="text-sm mb-1 block text-zinc-700"
           >Password</label>
           <div class="relative">
             <input
@@ -61,7 +61,7 @@
 
         <button
           type="submit"
-          class="w-full bg-cyan-500 hover:bg-cyan-600 text-white py-2 mt-8 rounded-sm"
+          class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2 mt-8 rounded-sm"
         >
           Sign In
         </button>

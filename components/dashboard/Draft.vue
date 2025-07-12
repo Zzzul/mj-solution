@@ -28,17 +28,18 @@
                 ...
               </p>
             </div>
-            <div>
-              <div class="flex justify-between gap-2">
+            <div class="flex-1">
+              <div class="flex justify-between gap-2 items-center">
                 <nuxt-link
                   to="#"
                   class="font-semibold hover:underline text-zinc-700 hover:text-zinc-800"
                 >
                   {{ d.title }}
                 </nuxt-link>
-                <p class="text-zinc-600 text-xl font-semibold hidden md:block mt-[-10px]">
+                <!-- desktop -->
+                <button class="text-zinc-600 text-xl font-semibold hidden md:block hover:text-cyan-500 mt-[-25px]">
                   ...
-                </p>
+                </button>
               </div>
               <p class="mt-2 text-zinc-700">
                 {{ d.content }}

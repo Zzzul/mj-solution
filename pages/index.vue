@@ -7,7 +7,7 @@
       <dashboard-chart class="col-span-12 md:col-span-8" />
     </div>
 
-    <div class="flex flex-col md:flex-row md:gap-4">
+    <div class="flex flex-col md:grid md:grid-cols-2 md:gap-4">
       <dashboard-draft
         v-for="(d, i) in ['Last Draft', 'Last Projects']"
         :key="i"
