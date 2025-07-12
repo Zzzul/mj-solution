@@ -294,7 +294,7 @@
 <script setup lang="ts">
 const isWriteOpen = ref(false)
 const isAvatarOpen = ref(false)
-const isSidebarOpen = ref(true)
+const isSidebarOpen = ref(false)
 
 const sidebarRef = ref<HTMLElement | null>(null)
 

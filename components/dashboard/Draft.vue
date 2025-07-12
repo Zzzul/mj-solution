@@ -5,7 +5,7 @@
         <p class="text-sm text-zinc-500 font-semibold">
           {{ header }}
         </p>
-        <div class="bg-cyan-500 px-1 rounded text-white text-sm">
+        <div class="bg-cyan-500 px-1 rounded text-white text-sm font-semibold">
           20
         </div>
       </div>
@@ -32,7 +32,7 @@
               <div class="flex justify-between gap-2 items-center">
                 <nuxt-link
                   to="#"
-                  class="font-semibold hover:underline text-zinc-700 hover:text-zinc-800"
+                  class="font-semibold hover:underline text-zinc-600 hover:text-zinc-700"
                 >
                   {{ d.title }}
                 </nuxt-link>

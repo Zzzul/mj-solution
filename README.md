@@ -1,75 +1,47 @@
-# Nuxt Minimal Starter
+## 🚀 MJ SOLUTION INDONESIA  
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### 📥 Clone the Repository
 
-## Setup
+Start by cloning repository to your local machine:
+
+```bash
+git clone https://github.com/Zzzul/mj-solution.git
+```
+
+```bash
+cd mj-solution
+```
+
+### 📦 Install Dependencies
 
 Make sure to install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+###  🧪 Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the development server at `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### 🏗️ Production Build
 
 Build the application for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+#### 🌐 Live Demo
+Check out the live demo here:
+https://mj-solution.vercel.app/
