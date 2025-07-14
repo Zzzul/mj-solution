@@ -1,4 +1,4 @@
-## 🚀 MJ SOLUTION INDONESIA  
+## 🚀 FULLSTACK - MJ SOLUTION INDONESIA  
 
 ### 📥 Clone the Repository
 
@@ -44,4 +44,5 @@ npm run preview
 
 #### 🌐 Live Demo
 Check out the live demo here:
-https://mj-solution.vercel.app/
+- https://mj-solution.vercel.app/login
+- https://mj-solution.vercel.app
